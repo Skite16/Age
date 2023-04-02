@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Poppins&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Poppins:ital,wght@1,700&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="top">
+        <div class="childrenOfTop">
+          Day
+          <input class="inputDay" type="number" />
+        </div>
+
+        <div class="childrenOfTop">
+          Month
+          <input class="inputMonth" type="number" />
+        </div>
+
+        <div class="childrenOfTop">
+          Year
+          <input class="inputYear" type="number" />
+        </div>
+      </div>
+
+      <div class="center">
+        <div class="container">
+          <hr />
+        </div>
+
+        <button class="circle">
+          <img src="assets/images/icon-arrow.svg" alt="" />
+        </button>
+      </div>
+      <div class="last">
+        <li class="jsChange">
+          <span class="outputYear purp">0</span>year<span class="s">s</span>
+        </li>
+        <li class="jsChange">
+          <span class="outputMonth purp">0</span>month<span class="s">s</span>
+        </li>
+        <li class="jsChange">
+          <span class="outputDay purp">0</span>day<span class="s">s</span>
+        </li>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

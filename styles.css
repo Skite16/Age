@@ -1,0 +1,124 @@
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* tagggggggggggggggggggggggggggggggggggggggggggggggggggg */
+
+body {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-rows: 20fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: white;
+  height: 650px;
+  width: 800px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr;
+  border-radius: 40px;
+  padding: 5px 1em 1em;
+  border-bottom-right-radius: 40%;
+}
+li {
+  list-style: none;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+}
+/* classsssssssssssssssssssssssssssssssssssssssssssssssssss */
+
+.top {
+  width: 50%;
+  padding: 4em 2em 0em 4em;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.childrenOfTop {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: f0f0f0;
+  gap: 1em;
+}
+
+.childrenOfTop > input {
+  border: solid #e0e0e0 2px;
+  border-radius: 5%;
+  /* height: 4em; */
+  font-size: 1.4em;
+  width: 4em;
+  padding: 10px;
+  font-weight: bolder;
+
+  /* padding: 0; */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.childrenOfTop > input:hover {
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+
+  /* justify-content: space-between; */
+}
+.circle {
+  background-color: #8049f5;
+  cursor: pointer;
+  border-radius: 70%;
+  padding: 2em;
+  transition: 200ms;
+  border: none;
+  opacity: 0.9;
+}
+
+.circle:hover {
+  scale: 1.1;
+  opacity: 1;
+}
+
+.purp {
+  color: #864cff;
+  font-size: 1.3em;
+  line-height: 0;
+  padding: 10px;
+}
+
+.last {
+  /* font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Poppins", sans-serif; */
+
+  font-style: italic;
+}
+
+.s {
+  /* display: none; */
+}
